@@ -1,0 +1,65 @@
+<html>
+    <head>
+   <h1>New Student</h1> 
+   <title>
+       New Student
+   </title> 
+    </head>
+
+<body>
+<fieldset>
+ <legend>Personal Information</legend>
+   <p> 
+       <lablel>
+           Full Name: 
+         <input type="text" Name="txtFullName" required>
+       </lablel>
+    </p>
+    <p> 
+        <lablel>
+            Birthdate: 
+         <input type="date" Name="txtBirthdate" required>
+        </lablel>
+     </p>
+     <p> 
+        <lablel>
+            Full Name: 
+         <input type="radio" Name="Gender" value="Male" >
+         Male
+         <input type="radio" Name="Gender" value="Female">
+         Female
+        </lablel>
+     </p>  
+    </fieldset>
+<fieldset>
+<legend>contact Information</legend>
+<p>
+    <label>
+        Email: 
+    <input type="Email" Name="txtEmail" required>    
+    </label>
+</p>
+<p>
+   <lable>
+   Address
+   <textarea rows="S" cols="100" Name="txtAddress" style="margin: auto;"></textarea>    
+   </lable>
+</p>
+</fieldset>
+<fieldset>
+    <legend>Univeristy Information</legend>
+    <p>
+        <label>
+             Choose Your Faculty: 
+            <select name="faculty">
+                <option value="f1">faculty 1 </option>
+                <option value="f1">faculty 2 </option>
+            </select>
+        </label>
+    </p>
+</fieldset>
+<input type="submit" class="button" value="Add" name="add">
+</fieldset>
+</body>
+
+</html>
